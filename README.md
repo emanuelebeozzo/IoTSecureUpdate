@@ -8,5 +8,6 @@ The repository is organized as follows:
 * the `example` folder contains:
     1. a set of manifest examples (used for testing) with scripts to automate the generation, signing and parsing of the manifests in the folder;
     2. a set of proofs of various properties used for testing with scripts to automate the proof verification. 
-* the `suit-tool` folder contains the codebase of the tool to generate and parse the manifests in Python;
+* the `SUIT-Parser` folder contains the codebase of the tool to parse the manifests in C;
+* the `SUIT-Tool` folder contains the codebase of the tool to generate and parse the manifests in Python;
 * the `tests` folder contains the result of example tested on a Raspberry Pi 4b (quad-core ARM Cortex-A72 processor running at 1.5 GHz and 2 GB of RAM). 
