@@ -10,7 +10,7 @@ Demonstration parser for SUIT manifests as described in [draft-ietf-suit-manifes
 
 1. Build the dependency, namely `mbedtls` and `pull-cbor`
 2. Build the source of the parser, located in `/source`
-3. Build the cli and the tests using this command: 
+3. Build the cli for testing using this command: 
 
 ```
 $ make CBOR_LIB=/home/emanuele/Desktop/suit-parser/pull-cbor/out/source/pull_cbor.a CBOR_INC=/home/emanuele/Desktop/suit-parser/pull-cbor/source SUIT_LIB=/home/emanuele/Desktop/suit-parser/out/suit_parser.a
